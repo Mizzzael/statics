@@ -6,14 +6,14 @@ export const Products = {
             "normal_price": 1978.2,
             "installments": 12,
             "installments_price": 91.58333333333333,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/0-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/0-prime1studos.jpeg']
         }, {
             "title": "Godzilla Bust",
             "price": "1599.00",
             "normal_price": 2878.2000000000003,
             "installments": 12,
             "installments_price": 133.25,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/1-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/1-prime1studos.jpeg']
         },
         {
             "title": "Alien",
@@ -21,7 +21,7 @@ export const Products = {
             "normal_price": 1258.2,
             "installments": 12,
             "installments_price": 58.25,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/2-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/2-prime1studos.jpeg']
         },
         {
             "title": "Anzu",
@@ -29,7 +29,7 @@ export const Products = {
             "normal_price": 1078.2,
             "installments": 12,
             "installments_price": 49.916666666666664,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/3-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/3-prime1studos.jpeg']
         },
         {
             "title": "Reika",
@@ -37,7 +37,7 @@ export const Products = {
             "normal_price": 1078.2,
             "installments": 12,
             "installments_price": 49.916666666666664,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/4-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/4-prime1studos.jpeg']
         },
         {
             "title": "Alita: Berserker",
@@ -45,7 +45,7 @@ export const Products = {
             "normal_price": 1798.2,
             "installments": 12,
             "installments_price": 83.25,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/5-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/5-prime1studos.jpeg']
         },
         {
             "title": "Wonder Woman versus Hydra",
@@ -53,7 +53,7 @@ export const Products = {
             "normal_price": 2644.2000000000003,
             "installments": 12,
             "installments_price": 122.41666666666667,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/6-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/6-prime1studos.jpeg']
         },
         {
             "title": "The Joker",
@@ -61,7 +61,7 @@ export const Products = {
             "normal_price": 2698.2000000000003,
             "installments": 12,
             "installments_price": 124.91666666666667,
-            "images": ['http://mizzzael.github.io/statics/assets/images/recomendacao-example/7-prime1studos.jpeg']
+            "images": ['https://mizzzael.github.io/statics/assets/images/recomendacao-example/7-prime1studos.jpeg']
         }
     ],
 };
