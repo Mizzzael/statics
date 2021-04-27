@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .modal {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    @variants responsive {
+        .icon-size-xs {
+            height: 0.75rem;
+        }
+
+        .icon-size-sm {
+            height: 0.875rem;
+        }
+
+        .icon-size-tiny {
+            height: 0.875rem;
+        }
+
+        .icon-size-md {
+            height: 1rem;
+        }
+
+        .icon-size-lg {
+            height: 1.125rem;
+        }
+
+        .icon-size-xl {
+            height: 1.25rem;
+        }
+
+        .icon-size-2xl {
+            height: 1.5rem;
+        }
+
+        .icon-size-3xl {
+            height: 1.875rem;
+        }
+
+        .icon-size-4xl {
+            height: 2.25rem;
+        }
+
+        .icon-size-5xl {
+            height: 3rem;
+        }
+
+        .icon-size-6xl {
+            height: 4rem;
+        }
+
+        .icon-size-7xl {
+            height: 5rem;
+        }
+    }
+}
