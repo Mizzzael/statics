@@ -7,53 +7,337 @@
         background-color: rgba(255, 255, 255, 0.4);
     }
 
+    .radio input {
+        display: none;
+    }
+
+    .radio label {
+        cursor: pointer;
+        position: relative;
+    }
+
+    .radio-label label {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .radio-label label:after,
+    .radio-label label:before {
+        position: absolute;
+        display: block;
+        content: "";
+        top: 0;
+        bottom: 0;
+        transition: 120ms transform ease, 220ms background-color linear;
+    }
+
+    .radio-label label:after {
+        border-radius: 100%;
+        background-color: #E4E4E7;
+    }
+
+    .radio-label label:before {
+        height: 4px;
+        width: 100%;
+        left: 0;
+        background-color: #E4E4E7;
+        margin: auto 0;
+        border-radius: 60px;
+    }
+
+    .radio-label input:checked~label:after {
+        transform: translateX(100%);
+        background-color: #77ea7e;
+    }
+
+    .radio-label input:checked~label:before {
+        background-color: #77ea7e;
+    }
+
+    .radio-check label {
+        width: 100%;
+        height: 100%;
+        background-color: #e4e4e7;
+        display: block;
+        border-radius: 100%;
+        position: relative;
+        transition: 220ms background-color linear;
+    }
+
+    .radio-check label:after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: #a1a1aa;
+        border-radius: 100%;
+        transition: 120ms ease transform, 220ms background-color linear;
+    }
+
+    .radio-check input:not(:checked)~label:after {
+        transform: scale(0);
+    }
+
+    .radio-check input:checked~label {
+        background-color: #cff1d6;
+    }
+
+    .radio-check input:checked~label:after {
+        background-color: #77ea7e;
+    }
+
+
     @variants responsive {
-        .icon-size-xs {
+
+        .icon-size-xs,
+        .radio-size-xs,
+        .radio-size-xs label:not(.is-initial):after,
+        .radio-xs {
             height: 0.75rem;
         }
 
-        .icon-size-sm {
+        .radio-size-xs label:not(.is-initial):after,
+        .radio-xs {
+            width: 0.75rem;
+        }
+
+        .radio-xs label:after {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+
+        .radio-size-xs {
+            width: 1.5rem;
+        }
+
+        .icon-size-sm,
+        .radio-size-sm,
+        .radio-size-sm label:not(.is-initial):after,
+        .radio-sm {
             height: 0.875rem;
         }
 
-        .icon-size-tiny {
+        .radio-size-sm label:not(.is-initial):after,
+        .radio-sm {
+            width: 0.875rem;
+        }
+
+        .radio-sm label:after,
+        .radio-tiny label:after {
+            width: 0.875rem;
             height: 0.875rem;
         }
 
-        .icon-size-md {
+        .radio-size-sm,
+        .radio-size-tiny {
+            width: 1.75rem;
+        }
+
+        .icon-size-tiny,
+        .radio-size-tiny,
+        .radio-size-tiny label:not(.is-initial):after,
+        .radio-tiny {
+            height: 0.875rem;
+        }
+
+        .radio-size-tiny label:not(.is-initial):after,
+        .radio-tiny {
+            width: 0.875rem;
+        }
+
+
+        .icon-size-md,
+        .radio-size-md,
+        .radio-size-md label:not(.is-initial):after,
+        .radio-md {
             height: 1rem;
         }
 
-        .icon-size-lg {
+        .radio-size-md label:not(.is-initial):after,
+        .radio-md {
+            width: 1rem;
+        }
+
+        .radio-md label:after {
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+
+        .radio-size-md {
+            width: 2rem;
+        }
+
+        .icon-size-lg,
+        .radio-size-lg,
+        .radio-size-lg label:not(.is-initial):after,
+        .radio-lg {
             height: 1.125rem;
         }
 
-        .icon-size-xl {
+        .radio-size-lg label:not(.is-initial):after,
+        .radio-lg {
+            width: 1.125rem;
+        }
+
+        .radio-size-lg {
+            width: 2.25rem;
+        }
+
+        .radio-lg label:after {
+            width: 10px;
+            height: 10px;
+        }
+
+        .icon-size-xl,
+        .radio-size-xl,
+        .radio-size-xl label:not(.is-initial):after,
+        .radio-xl {
             height: 1.25rem;
         }
 
-        .icon-size-2xl {
+        .radio-size-xl label:not(.is-initial):after,
+        .radio-xl {
+            width: 1.25rem;
+        }
+
+        .radio-size-xl {
+            width: 2.5rem;
+        }
+
+        .radio-xl label:after {
+            width: 0.625rem;
+            height: 0.625rem;
+        }
+
+        .icon-size-2xl,
+        .radio-size-2xl,
+        .radio-size-2xl label:not(.is-initial):after,
+        .radio-2xl {
             height: 1.5rem;
         }
 
-        .icon-size-3xl {
+        .radio-size-2xl label:not(.is-initial):after,
+        .radio-2xl {
+            width: 1.5rem;
+        }
+
+        .radio-2xl label:after {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+
+        .radio-size-2xl {
+            width: 3rem;
+        }
+
+        .icon-size-3xl,
+        .radio-size-3xl,
+        .radio-size-3xl label:not(.is-initial):after,
+        .radio-3xl {
             height: 1.875rem;
         }
 
-        .icon-size-4xl {
+        .radio-size-3xl label:not(.is-initial):after,
+        .radio-3xl {
+            width: 1.875rem;
+        }
+
+        .radio-3xl label:after {
+            width: 0.9375rem;
+            height: 0.9375rem;
+        }
+
+        .radio-size-3xl {
+            width: 3.75rem;
+        }
+
+        .icon-size-4xl,
+        .radio-size-4xl,
+        .radio-size-4xl label:not(.is-initial):after,
+        .radio-4xl {
             height: 2.25rem;
         }
 
-        .icon-size-5xl {
+        .radio-size-4xl label:not(.is-initial):after,
+        .radio-4xl {
+            width: 2.25rem;
+        }
+
+        .radio-4xl label:after {
+            width: 1.125rem;
+            height: 1.125rem;
+        }
+
+        .radio-size-4xl {
+            width: 4.5rem;
+        }
+
+        .icon-size-5xl,
+        .radio-size-5xl,
+        .radio-size-5xl label:not(.is-initial):after,
+        .radio-5xl {
             height: 3rem;
         }
 
-        .icon-size-6xl {
+        .radio-size-5xl label:not(.is-initial):after,
+        .radio-5xl {
+            width: 3rem;
+        }
+
+        .radio-5xl label:after {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .radio-size-5xl {
+            width: 6rem;
+        }
+
+        .icon-size-6xl,
+        .radio-size-6xl,
+        .radio-size-6xl label:not(.is-initial):after,
+        .radio-6xl {
             height: 4rem;
         }
 
-        .icon-size-7xl {
+        .radio-size-6xl label:not(.is-initial):after,
+        .radio-6xl {
+            width: 4rem;
+        }
+
+        .radio-6xl label:after {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .radio-size-6xl {
+            width: 8rem;
+        }
+
+        .icon-size-7xl,
+        .radio-size-7xl,
+        .radio-size-7xl label:not(.is-initial):after,
+        .radio-7xl {
             height: 5rem;
+        }
+
+        .radio-size-7xl label:not(.is-initial):after,
+        .radio-7xl {
+            width: 5rem;
+        }
+
+        .radio-7xl label:after {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        .radio-size-7xl {
+            width: 10rem;
         }
     }
 }

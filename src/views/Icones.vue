@@ -155,7 +155,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`browser-${index}`" v-for="(browser, index) in browsers" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${browser.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${browser.filename}`" :alt="browser.name"><br />
+                            <img :modal-target="`modal ${browser.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${browser.filename}`" :alt="browser.name"><br />
                             <span :modal-target="`modal ${browser.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{browser.name}}
                             </span>
@@ -177,84 +177,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${browser.filename}`" :alt="browser.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${browser.filename}`" :alt="browser.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -283,7 +283,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`social-${index}`" v-for="(social, index) in socialmedia" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${social.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${social.filename}`" :alt="social.name"><br />
+                            <img :modal-target="`modal ${social.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${social.filename}`" :alt="social.name"><br />
                             <span :modal-target="`modal ${social.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{social.name}}
                             </span>
@@ -305,84 +305,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${social.filename}`" :alt="social.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${social.filename}`" :alt="social.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -411,7 +411,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`messenger-${index}`" v-for="(messenger, index) in messengers" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${messenger.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name"><br />
+                            <img :modal-target="`modal ${messenger.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name"><br />
                             <span :modal-target="`modal ${messenger.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{messenger.name}}
                             </span>
@@ -433,84 +433,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${messenger.filename}`" :alt="messenger.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${messenger.filename}`" :alt="messenger.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -539,7 +539,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`code-${index}`" v-for="(code, index) in coding" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${code.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${code.filename}`" :alt="code.name"><br />
+                            <img :modal-target="`modal ${code.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${code.filename}`" :alt="code.name"><br />
                             <span :modal-target="`modal ${code.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{code.name}}
                             </span>
@@ -561,84 +561,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${code.filename}`" :alt="code.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${code.filename}`" :alt="code.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -667,7 +667,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`ds-${index}`" v-for="(ds, index) in design" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${ds.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${ds.filename}`" :alt="ds.name"><br />
+                            <img :modal-target="`modal ${ds.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${ds.filename}`" :alt="ds.name"><br />
                             <span :modal-target="`modal ${ds.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{ds.name}}
                             </span>
@@ -689,84 +689,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${ds.filename}`" :alt="ds.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${ds.filename}`" :alt="ds.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -795,7 +795,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`ds-${index}`" v-for="(mn, index) in money" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${mn.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${mn.filename}`" :alt="mn.name"><br />
+                            <img :modal-target="`modal ${mn.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${mn.filename}`" :alt="mn.name"><br />
                             <span :modal-target="`modal ${mn.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{mn.name}}
                             </span>
@@ -817,84 +817,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${mn.filename}`" :alt="mn.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${mn.filename}`" :alt="mn.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -923,7 +923,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`os-${index}`" v-for="(sistemOP, index) in syop" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${sistemOP.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name"><br />
+                            <img :modal-target="`modal ${sistemOP.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name"><br />
                             <span :modal-target="`modal ${sistemOP.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{sistemOP.name}}
                             </span>
@@ -945,84 +945,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${sistemOP.filename}`" :alt="sistemOP.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -1051,7 +1051,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`pr-${index}`" v-for="(pr, index) in produtivity" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${pr.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${pr.filename}`" :alt="pr.name"><br />
+                            <img :modal-target="`modal ${pr.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${pr.filename}`" :alt="pr.name"><br />
                             <span :modal-target="`modal ${pr.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{pr.name}}
                             </span>
@@ -1073,84 +1073,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${pr.filename}`" :alt="pr.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${pr.filename}`" :alt="pr.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -1179,7 +1179,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`pr-${index}`" v-for="(vd, index) in video" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${vd.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${vd.filename}`" :alt="vd.name"><br />
+                            <img :modal-target="`modal ${vd.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${vd.filename}`" :alt="vd.name"><br />
                             <span :modal-target="`modal ${vd.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{vd.name}}
                             </span>
@@ -1201,84 +1201,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${vd.filename}`" :alt="vd.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${vd.filename}`" :alt="vd.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -1307,7 +1307,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`ms-${index}`" v-for="(ms, index) in music" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${ms.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${ms.filename}`" :alt="ms.name"><br />
+                            <img :modal-target="`modal ${ms.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${ms.filename}`" :alt="ms.name"><br />
                             <span :modal-target="`modal ${ms.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{ms.name}}
                             </span>
@@ -1329,84 +1329,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${ms.filename}`" :alt="ms.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${ms.filename}`" :alt="ms.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -1435,7 +1435,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`cc-${index}`" v-for="(cc, index) in cryptocurrency" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${cc.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${cc.filename}`" :alt="cc.name"><br />
+                            <img :modal-target="`modal ${cc.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${cc.filename}`" :alt="cc.name"><br />
                             <span :modal-target="`modal ${cc.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{cc.name}}
                             </span>
@@ -1457,84 +1457,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${cc.filename}`" :alt="cc.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${cc.filename}`" :alt="cc.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl
@@ -1562,7 +1562,7 @@
                     </section>
                     <section class="w-full grid grid-cols-11 gap-x-4 py-1">
                         <div v-bind:key="`ot-${index}`" v-for="(ot, index) in other" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                            <img :modal-target="`modal ${ot.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/assets/icons/${ot.filename}`" :alt="ot.name"><br />
+                            <img :modal-target="`modal ${ot.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${ot.filename}`" :alt="ot.name"><br />
                             <span :modal-target="`modal ${ot.name}`" class="font-mono text-sm py-1 cursor-pointer">
                                 {{ot.name}}
                             </span>
@@ -1584,84 +1584,84 @@
                                             <section class="w-full px-4">
                                                  <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xs inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-xs inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xs
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-sm inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-sm inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-sm
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-md inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-md inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-md
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-tiny inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-tiny inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-tiny
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-lg inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-lg inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-lg
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-2xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-2xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-2xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-3xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-3xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-3xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-4xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-4xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-4xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-5xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-5xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-5xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-6xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-6xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-6xl
                                                          </span>
                                                      </section>
                                                      <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                         <img class="icon-size-7xl inline" :src="`/assets/icons/${ot.filename}`" :alt="ot.name">
+                                                         <img class="icon-size-7xl inline" :src="`assets/icons/${ot.filename}`" :alt="ot.name">
                                                          <br />
                                                          <span class="text-sm">
                                                              *-7xl

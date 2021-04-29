@@ -1,6 +1,6 @@
 <template>
   <nav class="w-full">
-      <ul class="flex flex-wrap items-center justify-center w-full">
+      <ul class="flex flex-wrap items-center justify-end w-full">
           <li class="px-2">
               <router-link to="/">
                   <span class="text-lg text-sepia-900">
@@ -16,9 +16,11 @@
               </router-link>
           </li>
           <li class="px-2">
-              <a href="" class="text-lg text-sepia-900">
-                  UI
-              </a>
+              <router-link to="/ui">
+                  <span class="text-lg text-sepia-900">
+                      UI
+                  </span>
+              </router-link>
           </li>
       </ul>
   </nav>
