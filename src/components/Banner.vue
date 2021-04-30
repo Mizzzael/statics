@@ -93,13 +93,13 @@ export default {
             const code = (`<!--
     Tag para adicionar o ornara-XDR UIKIT
 -->
-<link rel="stylesheet" href="https://mizzzael.github.io/statics/ornara-xdr/css/app.f20986f1.css">
-<link rel="stylesheet" href="https://mizzzael.github.io/statics/ornara-xdr/css/icons.css">
+<link rel="stylesheet" href="https://mizzzael.github.io/statics/assets/css/ornara-XDR/tailwind.bundle.css">
+<link rel="stylesheet" href="https://mizzzael.github.io/statics/assets/css/ornara-XDR/icons.css">
 <link rel="stylesheet" href="https://mizzzael.github.io/statics/assets/css/agave/style.css">
 <!-- or -->
 <style>
-    @import url('https://mizzzael.github.io/statics/ornara-xdr/css/app.f20986f1.css');
-    @import url('https://mizzzael.github.io/statics/ornara-xdr/css/icons.css');
+    @import url('https://mizzzael.github.io/statics/assets/css/ornara-XDR/tailwind.bundle.css');
+    @import url('https://mizzzael.github.io/statics/assets/css/ornara-XDR/icons.css');
     @import url('https://mizzzael.github.io/statics/assets/css/agave/style.css');
 </style>`).trim();
             return Prism.highlight(code, Prism.languages.html, 'html');
