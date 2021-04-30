@@ -16,6 +16,7 @@
     "html-prettify": "^1.0.3",
     "json-beautify": "^1.1.1",
     "lottie-web": "^5.7.8",
+    "prism-material-themes": "^1.0.4",
     "prism-themes": "^1.6.0",
     "prismjs": "^1.23.0",
     "vue": "^2.6.11",

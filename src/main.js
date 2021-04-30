@@ -1,11 +1,13 @@
 import Vue from 'vue';
 import Prism from 'prismjs';
+import anime from 'animejs';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 
 import './assets/css/tailwind.bundle.css';
-import '../node_modules/prism-themes/themes/prism-synthwave84.css';
+import './assets/css/icons.css';
+import 'prism-material-themes/themes/material-default.css';
 import modals from './assets/js/modals/index';
 
 Vue.mixin({
@@ -25,6 +27,28 @@ Vue.mixin({
     src="${imageLink}" />
 `;
             return [$Prism.highlight(code, $Prism.languages.html, 'html'), code.trim()];
+        },
+        menuFixed() {
+            let show = false;
+            window.addEventListener('scroll', () => {
+                const position = window.scrollY;
+                if (position >= 250 && !show) {
+                    show = true;
+                    anime({
+                        targets: '#header',
+                        translateY: [-200, 2],
+                        duration: 200,
+                    });
+                } else if (position < 250 && show) {
+                    show = false;
+                    anime({
+                        targets: '#header',
+                        translateY: [2, -200],
+                        duration: 100,
+                        easing: 'linear',
+                    });
+                }
+            }, false);
         },
     },
 });

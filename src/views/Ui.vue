@@ -36,20 +36,31 @@
                         <section class="w-full py-1">
                             <pre data-target="radio-code-check" class="language-html font-mono w-full block rounded-lg relative"></pre>
                         </section>
-                        <div class="inline-block align-middle px-2">
-                            <div class="radio radio-check radio-4xl rounded-full">
-                                <input type="checkbox" id="radiocheck" name="radiocheck">
-                                <label for="radiocheck"></label>
-                            </div>
-                        </div>
                         <code class="hidden" data-name="radio-code-check">
                             <div class="radio radio-check lg:radio-4xl rounded-full">
                                 <input type="checkbox" id="namehere" name="namehere">
                                 <label for="namehere"></label>
                             </div>
                         </code>
+                        <div class="inline-block align-middle px-2">
+                            <div class="radio radio-check radio-4xl rounded-full">
+                                <input type="checkbox" id="radiocheck" name="radiocheck">
+                                <label for="radiocheck"></label>
+                            </div>
+                        </div>
                         <label class="text-lg align-middle inline-block text-gray-600 cursor-pointer" for="radiocheck">
-                            .radio .radio-check
+                            .radio .radio-check radio-4xl
+                        </label>
+                        <br />
+                        <br />
+                        <div class="inline-block align-middle px-2">
+                            <div class="radio radio-check radio-3xl rounded-full">
+                                <input type="checkbox" id="radiocheck3" name="radiocheck">
+                                <label for="radiocheck3"></label>
+                            </div>
+                        </div>
+                        <label class="text-lg align-middle inline-block text-gray-600 cursor-pointer" for="radiocheck">
+                            .radio .radio-check radio-3xl
                         </label>
                     </section>
                 </section>
