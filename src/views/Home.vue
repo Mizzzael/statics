@@ -421,7 +421,7 @@
                 <section class="md:w-full w-10/12 mx-auto py-4">
                     <pre class='language-html shadow-xl ring-8 ring-gray-100 font-mono w-full block rounded-xl' v-html="iconCode()"></pre>
                 </section>
-                <section class="md:w-full w-10/12 mx-auto grid grid-row md:grid-cols-11 grid-cols-4 gap-x-1 gap-y-1 py-1">
+                <section class="md:w-full w-10/12 mx-auto grid grid-row md:grid-cols-11 grid-cols-2 gap-x-1 gap-y-1 py-1">
                     <div class="bg-gray-200 rounded-sm">
                         <p class="text-4xl text-center text-gray-800">
                             <i class="ico ico-custom-cpp"></i>

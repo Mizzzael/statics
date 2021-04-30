@@ -27,9 +27,6 @@
                                     Icones
                                 </span>
                             </router-link>
-                            <a class="md:px-4 px-2 mx-1 text-md font-mono" href="">
-                                Desenhos
-                            </a>
                         </nav>
                     </div>
                 </section>
@@ -62,9 +59,6 @@
                                     Icones
                                 </span>
                             </router-link>
-                            <a class="md:px-4 px-2 mx-1 text-md font-mono" href="">
-                                Desenhos
-                            </a>
                         </nav>
                     </div>
                 </section>

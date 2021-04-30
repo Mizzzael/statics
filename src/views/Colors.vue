@@ -327,7 +327,7 @@
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue';
+import Header from '@/components/Menu.vue';
 import customColors from '../assets/js/watchos';
 
 const { watchos } = customColors;

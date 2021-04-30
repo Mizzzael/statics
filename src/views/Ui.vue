@@ -70,7 +70,7 @@
 </template>
 <script>
 import prettify from 'beautify';
-import Header from '../components/Header.vue';
+import Header from '../components/Menu.vue';
 
 export default {
     name: 'UI',
