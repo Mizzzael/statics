@@ -119,7 +119,7 @@
                                                     </span>
                                                 </section>
                                         </section>
-                                        <pre class="language-html font-mono w-full block rounded-lg" v-html="getCode(`${baseUrl}/statics/ornara-xdr/assets/icons/${item.filename}`)[0]">
+                                        <pre class="language-html font-mono w-full block rounded-lg" v-html="getCode(`${baseUrl}statics/ornara-xdr/assets/icons/${item.filename}`)[0]">
                                         </pre>
                                         <footer class="flex flex-wrap items-center justify-end py-2 mb-4 px-2">
                                             <button :data-clipboard-text="getCode(`${baseUrl}assets/icons/${item.filename}`)[1]" class="copy bg-sepia-100 text-sepia-900 hover:bg-magenta-50 hover:text-magenta-default px-6 py-1 rounded-lg text-lg transition duration-900 linear">
