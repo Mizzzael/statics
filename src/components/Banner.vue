@@ -1,5 +1,5 @@
 <template>
-    <section id="banner" class="banner w-full bg-watchos-lilac">
+    <section id="banner" class="banner w-full">
         <header class="header mx-auto container py-4">
             <section class="md:w-full w-10/12 mx-auto py-4 rounded-lg bg-gray-100 shadow-xl ring-4 ring-opacity-50 ring-gray-100">
                 <section class="w-full flex flex-wrap items-center justify-center">
@@ -27,9 +27,6 @@
                                     Icones
                                 </span>
                             </router-link>
-                            <a class="md:px-4 px-2 mx-1 text-md font-mono" href="">
-                                Desenhos
-                            </a>
                         </nav>
                     </div>
                 </section>
@@ -62,9 +59,6 @@
                                     Icones
                                 </span>
                             </router-link>
-                            <a class="md:px-4 px-2 mx-1 text-md font-mono" href="">
-                                Desenhos
-                            </a>
                         </nav>
                     </div>
                 </section>
@@ -78,6 +72,10 @@
     </section>
 </template>
 <style lang="stylus" scoped>
+.banner
+    background #cf3cc8
+    background linear-gradient(-45deg, #a600ff, #ff8585)
+
 .header
     z-index 999999
 

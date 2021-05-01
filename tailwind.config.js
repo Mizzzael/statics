@@ -159,6 +159,26 @@ module.exports = {
                 pebble: '#9f8d7e',
                 coastalgray: '#715d50',
             },
+            'flat-r-cloud': {
+                1: '#F4EDF6',
+                2: '#F8D9D5',
+                3: '#D8E2EC',
+                4: '#F2E4F9',
+                5: '#FDE1F7'
+            },
+            'flat-affect': {
+                1: '#E3EEFF',
+                2: '#E8FFFF',
+                3: '#E1FAFC',
+                4: '#EDF9FF',
+            },
+            'flat-earth': {
+                1: '#59AE7F',
+                2: '#64C4AF',
+                3: '#91CED7',
+                4: '#CCEBC0',
+                5: '#D9F5BE'
+            }
         },
         fontSize: {
             xs: '.75rem',

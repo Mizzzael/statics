@@ -5,30 +5,17 @@
     </section>
     <section class="w-full">
         <section class="container mx-auto py-8">
-            <header class="w-full mx-auto">
+            <header class="md:w-full w-11/12 mx-auto">
                 <h4 class="text-4xl font-bold text-gray-700">
                     Lista de cores
                 </h4>
-                <p class="my-2 text-lg text-sepia-900">
-                    Abaixo serve uma lista de cores que pode ser usado dentro desta configuração do Tailwind Css.
-                </p>
-                <section class="w-full py-2">
-                    <pre class='language-css font-mono w-full block rounded-lg' v-html="cssCode">
-                    </pre>
-                    <p class="text-sepia-900 text-lg font-mono my-1">
-                        .text-sepia-900
-                    </p>
-                    <button class="bg-sepia-900 text-lg px-4 py-1 font-mono text-sepia-200 rounded-md ring-4 ring-sepia-500">
-                        .bg-sepia-900 .ring-sepia-500
-                    </button>
-                </section>
             </header>
             <section class="w-full py-4">
 
                 <section class="w-11/12 mx-auto py-2">
                     <section class="w-full py-1 px-1 shadow rounded">
-                        <section class="w-full mx-auto flex flex-row gab-x-2 items-center py-4 px-2">
-                            <div class="w-36 flex-shrink-0 space-y-3">
+                        <section class="w-full mx-auto flex flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
                                 <h5 class="text-lg font-bold px-4 py-1 leading-4">
                                     Magenta<br />
                                     <span class="text-sm font-code font-light text-magenta-default">
@@ -39,7 +26,7 @@
                                     </span>
                                 </h5>
                             </div>
-                            <div class="min-w-0 flex-1 grid grid-cols-5 2xl:grid-cols-11 gap-x-4 gap-y-3 2xl:gap-x-2">
+                            <div class="md:w-auto md:pt-0 pt-4 w-11/12 mx-auto md:min-w-0 md:flex-1 grid grid-cols-4 2xl:grid-cols-11 gap-x-4 gap-y-3 2xl:gap-x-2">
                                 <div class="space-y-1.5">
                                     <div class=" bg-magenta-default h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
                                     <span class="text-sm py-1 font-code leading-2 block">
@@ -124,16 +111,16 @@
 
                 <section class="w-11/12 mx-auto py-2">
                     <section class="w-full py-1 px-1 shadow rounded">
-                        <section class="w-full mx-auto flex flex-row gab-x-2 items-center py-4 px-2">
-                            <div class="w-36 flex-shrink-0 space-y-3">
+                        <section class="w-full mx-auto flex flex-row flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
                                 <h5 class="text-lg font-bold px-4 py-1 leading-4">
                                     Red Sun
                                 </h5>
-                                <span class="text-sm text-gray-600 font-code font-light">
+                                <span class="text-sm text-gray-600 font-code font-light px-4">
                                     *-redsun-*
                                 </span>
                             </div>
-                            <div class="min-w-0 flex-1 grid grid-cols-5 2xl:grid-cols-10 gap-x-4 gap-y-3 2xl:gap-x-2">
+                            <div class="md:min-w-0 md:mt-0 mt-4 w-11/12 mx-auto md:flex-1 grid grid-cols-3 2xl:grid-cols-10 gap-x-4 gap-y-3 2xl:gap-x-2">
                                 <div class="space-y-1.5">
                                     <div class=" bg-redsun-50 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
                                     <span class="text-sm py-1 font-code leading-2 block">
@@ -211,16 +198,16 @@
 
                 <section class="w-11/12 mx-auto py-2">
                     <section class="w-full py-1 px-1 shadow rounded">
-                        <section class="w-full mx-auto flex flex-row gab-x-2 items-center py-4 px-2">
-                            <div class="w-36 flex-shrink-0 space-y-3">
+                        <section class="w-full mx-auto flex flex-row flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
                                 <h5 class="text-lg font-bold px-4 py-1 leading-4">
                                     Sépia
                                 </h5>
-                                <span class="text-sm text-gray-600 font-code font-light">
+                                <span class="text-sm text-gray-600 font-code font-light px-4">
                                     *-sepia-*
                                 </span>
                             </div>
-                            <div class="min-w-0 flex-1 grid grid-cols-5 2xl:grid-cols-10 gap-x-4 gap-y-3 2xl:gap-x-2">
+                            <div class="md:min-w-0 md:flex-1 w-11/12 mx-auto md:mt-0 mt-4 grid grid-cols-3 2xl:grid-cols-10 gap-x-4 gap-y-3 2xl:gap-x-2">
                                 <div class="space-y-1.5">
                                     <div class=" bg-sepia-50 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
                                     <span class="text-sm py-1 font-code leading-2 block">
@@ -296,6 +283,155 @@
                     </section>
                 </section>
 
+                <section class="w-11/12 mx-auto py-2">
+                    <section class="w-full py-1 px-1 shadow rounded">
+                        <section class="w-full mx-auto flex flex-row flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
+                                <h5 class="text-lg font-bold px-4 py-1 leading-4">
+                                    Flat Cloud
+                                </h5>
+                                <span class="text-sm text-gray-600 font-code font-light px-4">
+                                    *-flat-r-cloud-*
+                                </span>
+                            </div>
+                            <div class="md:min-w-0 md:flex-1 md:mt-0 mt-4 w-11/12 mx-auto grid 2xl:grid-cols-5 grid-cols-3 gap-x-4 gap-y-3 2xl:gap-x-2">
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-r-cloud-1 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        1<br />
+                                        #F4EDF6
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-r-cloud-2 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        2<br />
+                                        #F8D9D5
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-r-cloud-3 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        3<br />
+                                        #D8E2EC
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-r-cloud-4 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        4<br />
+                                        #F2E4F9
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-r-cloud-5 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        5<br />
+                                        #FDE1F7
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="w-11/12 mx-auto py-2">
+                    <section class="w-full py-1 px-1 shadow rounded">
+                        <section class="w-full mx-auto flex flex-row flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
+                                <h5 class="text-lg font-bold px-4 py-1 leading-4">
+                                    Flat Affect
+                                </h5>
+                                <span class="text-sm text-gray-600 font-code font-light px-4">
+                                    *-flat-affect-*
+                                </span>
+                            </div>
+                            <div class="md:min-w-0 md:flex-1 md:mt-0 mt-4 w-11/12 mx-auto grid 2xl:grid-cols-4 grid-cols-2 gap-x-4 gap-y-3 2xl:gap-x-2">
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-affect-1 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        1<br />
+                                        #E3EEFF
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-affect-2 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        2<br />
+                                        #E8FFFF
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-affect-3 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        3<br />
+                                        #E1FAFC
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-affect-4 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        4<br />
+                                        #EDF9FF
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+
+                <section class="w-11/12 mx-auto py-2">
+                    <section class="w-full py-1 px-1 shadow rounded">
+                        <section class="w-full mx-auto flex flex-row flex-wrap gab-x-2 items-center py-4 px-2">
+                            <div class="md:w-36 w-full flex-shrink-0 space-y-3">
+                                <h5 class="text-lg font-bold px-4 py-1 leading-4">
+                                    Flat Earth
+                                </h5>
+                                <span class="text-sm text-gray-600 font-code font-light px-4">
+                                    *-flat-earth-*
+                                </span>
+                            </div>
+                            <div class="md:min-w-0 md:flex-1 md:mt-0 mt-4 w-11/12 mx-auto grid 2xl:grid-cols-5 grid-cols-3 gap-x-4 gap-y-3 2xl:gap-x-2">
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-earth-1 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        1<br />
+                                        #59AE7F
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-earth-2 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        2<br />
+                                        #64C4AF
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-earth-3 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        3<br />
+                                        #91CED7
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-earth-4 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        4<br />
+                                        #CCEBC0
+                                    </span>
+                                </div>
+                                <div class="space-y-1.5">
+                                    <div class="bg-flat-earth-5 h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0"></div>
+                                    <span class="text-sm py-1 font-code leading-2 block">
+                                        5<br />
+                                        #D9F5BE
+                                    </span>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+
                 <section class="w-11/12 mx-auto py-4 mt-6">
                     <h4 class="text-2xl font-bold text-gray-700 leading-4">
                         watchOS-colors<br />
@@ -307,7 +443,7 @@
                 <section class="w-11/12 mx-auto">
                     <section class="w-full py-1 px-0 rounded">
                         <section class="w-full mx-auto flex flex-row gab-x-2 items-center py-4">
-                            <div class="min-w-0 flex-1 grid grid-cols-5 2xl:grid-cols-11 gap-x-4 gap-y-3 2xl:gap-x-2">
+                            <div class="min-w-0 flex-1 grid grid-cols-3 2xl:grid-cols-11 gap-x-4 gap-y-3 2xl:gap-x-2">
                                 <div :key="`color-watchos-${index}`" v-for="(color, index) in watchos" class="space-y-1.5">
                                     <div :class="`bg-watchos-${color[0]} h-10 w-full rounded ring-1 ring-inset ring-black ring-opacity-0 shadow`"></div>
                                     <span class="text-sm py-1 font-code leading-2 block">
@@ -322,12 +458,15 @@
             </section>
         </section>
     </section>
+    <section class="w-full">
+        <Footer />
+    </section>
   </section>
 </template>
 
 <script>
-// @ is an alias to /src
 import Header from '@/components/Menu.vue';
+import Footer from '@/components/Footer.vue';
 import customColors from '../assets/js/watchos';
 
 const { watchos } = customColors;
@@ -340,26 +479,10 @@ export default {
             cssCode: '',
         };
     },
-    methods: {
-        loadPrism() {
-            const Prism = this.prism();
-            const code = (`<!--
-    Ex: Usando a cor Sépia:
--->
-<p class="text-sepia-900 text-lg font-mono my-1">
-    .text-sepia-900
-</p>
-<button class="bg-sepia-900 text-lg px-4 py-1 font-mono text-sepia-200 rounded-md ring-4 ring-sepia-500">
-    .bg-sepia-900 .ring-sepia-500
-</button>`).trim();
-            this.cssCode = Prism.highlight(code, Prism.languages.html, 'html');
-        },
-    },
+    methods: {},
     components: {
         Header,
-    },
-    mounted() {
-        this.loadPrism();
+        Footer,
     },
 };
 </script>

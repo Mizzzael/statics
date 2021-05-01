@@ -1800,6 +1800,10 @@
             {
                 "filename": "syop/ubuntu.ornara-xdr.svg",
                 "name": "Ubuntu"
+            },
+            {
+                "filename": "video/endeavouros.ornara-xdr.svg",
+                "name": "Endeavor OS"
             }
         ],
         "video": [

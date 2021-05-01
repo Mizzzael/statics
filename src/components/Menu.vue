@@ -12,17 +12,17 @@
                     </div>
                     <div class="px-2 md:w-6/12 w-11/12 mx-auto">
                         <nav class="w-full flex flex-wrap items-center md:justify-end justify-center">
-                            <router-link to="cores">
+                            <router-link to="/cores">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     Cores
                                 </span>
                             </router-link>
-                            <router-link to="SVG">
+                            <router-link to="/SVG">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     SVGs
                                 </span>
                             </router-link>
-                            <router-link to="icones">
+                            <router-link to="/icones">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     Icones
                                 </span>
@@ -44,17 +44,17 @@
                     </div>
                     <div class="px-2 md:w-6/12 w-11/12 mx-auto">
                         <nav class="w-full flex flex-wrap items-center md:justify-end justify-center">
-                            <router-link to="cores">
+                            <router-link to="/cores">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     Cores
                                 </span>
                             </router-link>
-                            <router-link to="SVG">
+                            <router-link to="/SVG">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     SVGs
                                 </span>
                             </router-link>
-                            <router-link to="icones">
+                            <router-link to="/icones">
                                 <span class="md:px-4 px-2 mx-1 text-md font-mono">
                                     Icones
                                 </span>

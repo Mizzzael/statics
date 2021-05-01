@@ -95,11 +95,11 @@
 
     @variants responsive {
         .absolute-height {
-            height: 100vh;
+            min-height: 100vh;
         }
     
         .absolute-width {
-            width: 100vw;
+            min-width: 100vw;
         }
 
         .icon-size-xs,

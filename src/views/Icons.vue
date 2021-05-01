@@ -4,6 +4,9 @@
          <section class="w-full">
              <section class="container mx-auto py-4">
                 <header class="py-4 flex flex-wrap items-center md:w-auto w-11/12 md:mx-none mx-auto">
+                    <h4 class="text-4xl font-bold text-gray-700 w-full pb-4">
+                        Lista de icones
+                    </h4>
                     <input v-model="filter" class="md:w-3/12 w-full md:mx-1 mx-auto bg-white shadow py-2 px-4 rounded-md text-lg" placeholder="Ex. docker" type="text">
                     <button v-on:click="filterEl" class="mr-1 md:w-auto w-5/12 md:mt-0 mt-2 px-4 py-2 text-lg bg-watchos-lilac rounded-md text-white hover:bg-watchos-dragonfruit">
                         <i class='ico ico-oct-search mr-2'></i> Filtrar
