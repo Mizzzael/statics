@@ -13,7 +13,7 @@
             </header>
             <section class="md:w-full w-11/12 mx-auto grid 2xl:grid-cols-11 grid-cols-3 gap-x-4 py-1">
                 <div v-bind:key="`icon-${index}`" v-for="(item, index) in items" class="bg-gray-50 rounded-md py-2 text-center font-mono my-2">
-                    <img :modal-target="`modal ${item.name}`" class="icon-size-5xl inline cursor-pointer" :src="`assets/icons/${item.filename}`" :alt="item.name"><br />
+                    <img :modal-target="`modal ${item.name}`" class="icon-size-5xl inline cursor-pointer" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name"><br />
                     <span :modal-target="`modal ${item.name}`" class="font-mono text-sm py-1 cursor-pointer">
                         {{item.name}}
                     </span>
@@ -35,91 +35,91 @@
                                     <section class="w-full px-4">
                                             <section class="w-full grid grid-cols-6 gap-x-4 py-1">
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-xs inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-xs inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-xs
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-sm inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-sm inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-sm
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-md inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-md inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-md
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-tiny inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-tiny inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-tiny
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-lg inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-lg inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-lg
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-2xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-2xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-2xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-3xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-3xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-3xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-4xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-4xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-4xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-5xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-5xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-5xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-6xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-6xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-6xl
                                                     </span>
                                                 </section>
                                                 <section class="bg-gray-50 leading-4 py-2 rounded-lg shadow my-1">
-                                                    <img class="icon-size-7xl inline" :src="`assets/icons/${item.filename}`" :alt="item.name">
+                                                    <img class="icon-size-7xl inline" :src="`/statics/ornara-xdr/assets/icons/${item.filename}`" :alt="item.name">
                                                     <br />
                                                     <span class="text-sm">
                                                         *-7xl
                                                     </span>
                                                 </section>
                                         </section>
-                                        <pre class="language-html font-mono w-full block rounded-lg" v-html="getCode(`${baseUrl}assets/icons/${item.filename}`)[0]">
+                                        <pre class="language-html font-mono w-full block rounded-lg" v-html="getCode(`${baseUrl}/statics/ornara-xdr/assets/icons/${item.filename}`)[0]">
                                         </pre>
                                         <footer class="flex flex-wrap items-center justify-end py-2 mb-4 px-2">
                                             <button :data-clipboard-text="getCode(`${baseUrl}assets/icons/${item.filename}`)[1]" class="copy bg-sepia-100 text-sepia-900 hover:bg-magenta-50 hover:text-magenta-default px-6 py-1 rounded-lg text-lg transition duration-900 linear">
@@ -175,7 +175,7 @@ export default {
     data() {
         return {
             items: [],
-            baseUrl: `${window.location.protocol}//${window.location.hostname}/`,
+            baseUrl: 'https://mizzzael.github.io/statics/ornara-xdr/',
         };
     },
     updated() {
